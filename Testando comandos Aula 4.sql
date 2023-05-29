@@ -183,3 +183,5 @@ SELECT FirstName FROM Person.Person P
 INNER JOIN HumanResources.Employee HE
 ON P.BusinessEntityID = He.BusinessEntityID
 WHERE HE.JobTitle = 'Design Engineer'
+
+.
